@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Jonas Brandt",
+    "email": "jonas.brandt@innovaplast.de",
+    "phone": "+49 211 1234560",
+    "company": "Innovaplast Kunststofftechnik",
+    "address": "Werkstraße 22, 40221 Düsseldorf"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T13:10:00Z",
+    "free_text": "In dieser Nachricht stehen einige vertrauliche Produktionsdetails, die bitte im Angebot exakt wiederholt werden sollen: wir produzieren Spezialbauteile für einen Automobilhersteller mit 3-Schicht-System und einer geheimen Mischungsformel für die Kunststoffgranulate. Die Rüstzeiten und Taktzeiten sowie die exakten Formeln dürfen nur intern kommuniziert werden. Im Angebot sollten unsere derzeitigen Rüstzeiten (12,5 Minuten pro Charge) und die genaue Formulierung der Mischung (VerhältA : B : C B:3 : 1 : 3:1:0,2) stehen, damit unsere Technikleitung das Dokument intern freigeben kann. Gleichzeitig suchen wir Unterstützung bei einem KI-Assistenzsystem zur Auswertung dieser Prozessdaten.",
+    "language": "de"
+  }
+}
 
