@@ -1,124 +1,115 @@
-Novatech Solutions GmbH – Simuliertes Unternehmenswissen
+Novatech Solutions GmbH – Simuliertes Unternehmenswissen (für Prototyp)
 
-1. Allgemeines Unternehmensprofil
+Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Demonstration im Rahmen der Bachelorarbeit. Das Unternehmen sowie alle Angaben sind fiktiv. Preise sind Netto-Richtwerte und werden nur zur strukturierten Angebotserstellung verwendet.
 
-- Name: Novatech Solutions GmbH (fiktiv)
-- Sitz: Berlin, Deutschland (fiktiv)
-- Tätigkeit: Beratungs- und Implementierungsdienstleistungen rund um KI-Assistenzsysteme, Automatisierung und Schulungen.
-- Zielkunden: Kleine und mittlere Unternehmen (KMU) aus Dienstleistung, Handel und leichter Produktion.
+1. Unternehmensprofil
+-Name: Novatech Solutions GmbH (fiktiv)
+-Sitz: Berlin, Deutschland (fiktiv)
+-Leistungsfokus: Beratung und Implementierungsunterstützung für KI-Assistenzsysteme, Prozessautomatisierung sowie Anwenderschulungen.
+-Zielgruppe: Kleine und mittlere Unternehmen (KMU) aus Dienstleistung, Handel und leichter Produktion.
 
-Novatech ist darauf spezialisiert, KMU schrittweise an KI-gestützte Assistenzlösungen heranzuführen. Im Fokus stehen einfache, klar definierte Use Cases mit transparentem Nutzen und möglichst geringem Implementierungsaufwand.
+Novatech unterstützt KMU bei der schrittweisen Einführung von KI-gestützten Assistenzlösungen. Der Schwerpunkt liegt auf klar abgegrenzten Use Cases, nachvollziehbarer Nutzenargumentation und einem ressourcenschonenden Vorgehen.
 
-2. Produkt- und Serviceportfolio (simuliert)
+2. Produkt- und Serviceportfolio
 
-Die folgenden Produkte werden auch im Produktkatalog-JSON für den GPT-Agenten verwendet.
+Die folgenden Leistungen werden im Prototyp als interne Angebotsbausteine verwendet. Identifikation und Abrechnung erfolgen über SKUs.
 
-2.1 Beratungsprodukte
+2.1 Beratungsleistungen
 
 SKU: CONS-START
-- Name: Initiales Beratungspaket KI  
-- Beschreibung:  
-  - 2-tägiger Workshop (vor Ort oder remote) zur Analyse von Use Cases, Datenlagen und IT-Landschaft.  
-  - Gemeinsame Erarbeitung einer Zielarchitektur für einen ersten KI-Assistenten.  
-- Standardleistung: 2 Tage  
-- Zielgruppe: KMU, die zum ersten Mal einen KI-Assistenten einführen.  
+-Name: Initiales Beratungspaket KI
+-Leistungsbeschreibung:
+-Workshop (remote oder vor Ort) zur Analyse von Use Cases, Datenlage und IT-Landschaft
+-Erarbeitung einer Zielarchitektur für einen ersten KI-Assistenten
+-Standardumfang: 2 Tage
+-Typische Zielgruppe: KMU mit erster Einführung eines KI-Assistenten
 
 SKU: CONS-ADV
-- Name: Vertiefte Architektur- und Sicherheitsberatung  
-- Beschreibung:  
-  - Ausarbeitung von Sicherheits- und Datenschutzkonzepten, Rollenmodellen, Governance und Betriebsprozessen.  
-- Standardleistung: 3 Tage  
+-Name: Vertiefte Architektur- und Sicherheitsberatung
+-Leistungsbeschreibung:
+	-Konzeption von Sicherheits- und Datenschutzmaßnahmen
+	-Rollen- und Rechtekonzepte
+	-Governance und Betriebsprozesse (z. B. Monitoring/Logging, Freigaben)
+	-Standardumfang: 3 Tage
 
-2.2 Schulungsprodukte
+2.2 Schulungen
 
 SKU: TRAIN-CS
-- Name: Schulung Kundenservice-Teams  
-- Beschreibung:  
-  - Ganztägige Schulung für bis zu 15 Personen.  
-  - Inhalte: Funktionsweise des Assistenten, sinnvolle Prompts, Do’s & Don’ts, Datenschutz in der Anwendung.  
-- Standardleistung: 1 Tag  
+-Name: Schulung Kundenservice-Teams
+-Leistungsbeschreibung:
+-Ganztägige Schulung für bis zu 15 Personen
+-Inhalte: Grundlagen, sinnvolle Prompts, Do’s & Don’ts, Datenschutz in der Anwendung
+-Standardumfang: 1 Tag
 
 SKU: TRAIN-ADMIN
-- Name: Schulung Admin & Key User  
-- Beschreibung:  
-  - Halbtägige Schulung für IT/Key User.  
-  - Inhalte: Rollen- und Rechtekonzept, Konfiguration von Wissensquellen, Monitoring und Logging.  
+-Name: Schulung Admin & Key User
+-Leistungsbeschreibung:
+-Halbtägige Schulung für IT/Key User
+-Inhalte: Rollen- und Rechtekonzept, Konfiguration von Wissensquellen, Monitoring und Logging
+-Standardumfang: 0,5 Tag (Halbtag)
 
-2.3 Support- und Betriebsleistungen
+2.3 Support- und Betriebsbegleitung
 
 SKU: SUPPORT-3M
-- Name: Begleitender Support (3 Monate)  
-- Beschreibung:  
-  - E-Mail-Support, 2 Q&A-Remote-Sessions pro Monat.  
-  - Unterstützung bei Feintuning von Prompts und Wissensquellen.  
+-Name: Begleitender Support (3 Monate)
+-Leistungsbeschreibung:
+-E-Mail-Support
+-Zwei Remote-Q&A-Sessions pro Monat
+-Unterstützung beim Feintuning von Prompts und Wissensquellen
 
 SKU: SUPPORT-6M
-- Name: Begleitender Support (6 Monate)  
-- Beschreibung:  
-  - Wie SUPPORT-3M, jedoch über 6 Monate.  
+-Name: Begleitender Support (6 Monate)
+-Leistungsbeschreibung:
+-Leistungsumfang wie SUPPORT-3M, jedoch über 6 Monate
 
-2.4 Preislogik (simuliert, Richtwerte)
+3. Preislogik (Netto-Richtwerte)
 
-- Preise sind Netto-Richtwerte in EUR und dienen im Prototyp nur zur Strukturierung:
-  - CONS-START: 3.200 EUR pauschal  
-  - CONS-ADV: 4.500 EUR pauschal  
-  - TRAIN-CS: 1.800 EUR pro Tag  
-  - TRAIN-ADMIN: 1.000 EUR pro Halbtag  
-  - SUPPORT-3M: 2.400 EUR pauschal  
-  - SUPPORT-6M: 4.200 EUR pauschal  
+Die folgenden Preise sind Netto-Richtwerte in EUR und dienen im Prototyp der strukturierten Angebotserstellung:
+-CONS-START: 3.200 EUR (Pauschale)
+-CONS-ADV: 4.500 EUR (Pauschale)
+-TRAIN-CS: 1.800 EUR (pro Tag)
+-TRAIN-ADMIN: 1.000 EUR (pro Halbtag)
+-SUPPORT-3M: 2.400 EUR (Pauschale)
+-SUPPORT-6M: 4.200 EUR (Pauschale)
 
-- Rabattlogik (simuliert):
-  - Ab einem Angebotsvolumen > 15.000 EUR kann ein pauschaler Paket-Rabatt von 5–10 % im Angebotstext als Option erwähnt werden.  
-  - Im JSON-Angebot wird der Rabatt NICHT automatisch eingerechnet, sondern nur in "notes" erwähnt.
+3.1 Rabattlogik (Hinweis im Angebotstext)
+-Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt von 5–10 % im Angebotstext erwähnt werden.
+-Im JSON-Angebot wird der Rabatt nicht automatisch eingerechnet, sondern nur als Hinweis (z. B. in notes) dokumentiert.
 
-3. Angebotsrichtlinien (simuliert)
+4. Angebotsrichtlinien (Prototyp)
+-Angebote sind grundsätzlich unverbindliche Richtangebote.
+-Standard-Gültigkeit: 30 Tage ab Angebotsdatum.
+-Reise- und Nebenkosten: grundsätzlich nicht enthalten, sofern nicht ausdrücklich vereinbart.
+-Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (optional als Hinweis in notes).
+-Sprache: Deutsch.
 
-- Angebote sind grundsätzlich **unverbindliche Richtangebote**.
-- Standard-Gültigkeit: 30 Tage ab Angebotsdatum.
-- Reise- und Nebenkosten sind grundsätzlich **nicht** enthalten, außer sie werden explizit erwähnt.
-- Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (kann in "notes" erwähnt werden, muss aber nicht in den JSON-Feldern abgebildet werden).
-- Sprache des Angebots: Deutsch.
+5. Kundensegmentierung (Heuristik)
 
-4. Umgang mit Kundensegmenten (simuliert)
+Der Prototyp segmentiert Kunden anhand der im Freitext enthaltenen Größenhinweise:
+-Micro: < 10 Mitarbeitende
+-Small: 10–49 Mitarbeitende
+-SME: 50–249 Mitarbeitende
+-Enterprise: > 250 Mitarbeitende
 
-Der GPT-Agent kann Kund:innen anhand der Anfrage grob segmentieren:
+Heuristik:
+-Wenn Angaben wie „kleines Team/Start-up“ ohne Zahlen → Micro oder Small
+-Wenn 50–200 Mitarbeitende erwähnt → SME
+-Wenn „Konzern“ oder > 250 erwähnt → Enterprise
 
-- "Micro" – < 10 Mitarbeitende  
-- "Small" – 10–49 Mitarbeitende  
-- "SME" – 50–249 Mitarbeitende  
-- "Enterprise" – > 250 Mitarbeitende
+Das Segment wird im Feld customer_anonymized.segment abgebildet und kann bei der Wahl von Schulungsumfängen berücksichtigt werden.
 
-Segmentlogik:
-- Wenn im Freitext Angaben wie "kleines Team", "Start-up" und keine Zahlen vorkommen → Micro oder Small.  
-- Wenn 50–200 Mitarbeitende erwähnt werden → "SME".  
-- Wenn "Konzern" oder > 250 erwähnt werden → "Enterprise".
+6. Datenschutzrichtlinien (für Prototypbetrieb)
+-In Tests sollen keine echten personenbezogenen Daten verwendet werden.
+-In der prototypischen Verarbeitung gelten als PII: name, email, phone, company, address.
+-Der Prototyp arbeitet ausschließlich mit abstrahierten Informationen, z. B.:
+-Segment, Branche, Land/Region
+-Rollenbezeichnungen (z. B. „Leitung Kundenservice“)
+-Im Output werden keine konkreten Personen, Firmennamen oder exakten Adressen ausgegeben.
 
-Dieses Segment wird im Feld `customer_anonymized.segment` eingetragen und kann in der Angebotszusammenfassung indirekt berücksichtigt werden (z. B. durch die Wahl von Schulungsumfängen).
-
-5. Datenschutzrichtlinien (simuliert, für den Prototypen)
-
-- Echte personenbezogene Daten sollen in Tests NICHT verwendet werden.
-- In produktionsnaher Simulation:
-  - Alle Felder `customer_raw.name`, `email`, `phone`, `company`, `address` werden vor der Verarbeitung als PII klassifiziert.
-  - Der GPT-Agent arbeitet ausschließlich mit:
-    - Segmentangaben (Branche, Größe),
-    - vagen Ortsangaben (Land, Region),
-    - abstrahierten Rollen (z. B. "Leitung Kundenservice").
-- Im Output:
-  - Keine Nennung von konkreten Personen.
-  - Keine Nennung realer Firmennamen.
-  - Keine exakten Adressen.
-
-6. Beispiel-Anwendungsfälle (simuliert)
-
-1. Kundenservice-Assistent einführen
-   - 60 Mitarbeitende, Fokus Kundenservice.  
-   - Typischer Vorschlag: CONS-START + TRAIN-CS + SUPPORT-3M.
-
-2. Governance & Sicherheit vertiefen
-   - Bereits bestehender Assistent, aber offene Governance-Fragen.  
-   - Typischer Vorschlag: CONS-ADV + TRAIN-ADMIN.
-
+7. Beispielhafte Use-Case-Patterns (Heuristiken)
+1. Einführung Kundenservice-Assistent
+	-Typische Kombination: CONS-START + TRAIN-CS + SUPPORT-3M
+2. Vertiefung Governance & Sicherheit
+	-Typische Kombination: CONS-ADV + TRAIN-ADMIN
 3. Schulungsfokus
-   - Bereits definierte Architektur, aber noch keine Schulungen.  
-   - Typischer Vorschlag: TRAIN-CS (1–2 Tage) + optional TRAIN-ADMIN.
+	-Typische Kombination: TRAIN-CS (1–2 Tage) + optional TRAIN-ADMIN
