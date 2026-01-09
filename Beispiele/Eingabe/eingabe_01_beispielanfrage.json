@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Julia Schneider",
+    "email": "j.schneider@fiktive-technik.de",
+    "phone": "+49 172 9876543",
+    "company": "Fiktive Technik GmbH",
+    "address": "Industriestraße 7, 40210 Düsseldorf"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T08:15:00Z",
+    "free_text": "Guten Tag, wir sind ein mittelständisches Unternehmen im Maschinenbau mit etwa 120 Mitarbeitenden im Innen- und Außendienst. Wir möchten im ersten Schritt eine‑ KI-Assistenten für unsere Service-Hotline einführen, der Anfragen vorqualifiziert und Standardantworten vorschlägt. Zusätzlich brauchen wir Unterstützung bei der Architekturplanung (inkl. Datenschutzfragen) sowie Schulungen für das Service-Team und unser‑ IT-Administratoren. Wir haben für das erste Halbjahr ein Budget von ca. 30.000 Euro vorgesehen und würden gerne in zwei Phasen arbeiten: Konzept & Prototyp im Q2, Ausweitung und Schulungen im Q3.",
+    "language": "de"
+  }
+}
 
