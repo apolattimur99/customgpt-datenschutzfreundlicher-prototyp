@@ -1,1 +1,185 @@
+{
+  "customer_anonymized": {
+    "customer_id": "CUST-2025-0007",
+    "segment": "SME",
+    "country": "DE",
+    "industry": "Logistik / Transport",
+    "employee_band": "k. A.",
+    "source_channel": "web_form"
+  },
+  "request_structured": {
+    "received_at_utc": "2025-12-12T12:00:00Z",
+    "language": "de",
+    "use_case_summary": "Gesamtbetrachtung von zwei Vorhaben: (1) KI-Assistent für Angebotsbearbeitung und (2) KI-Assistent für Disposition. Zusätzlich: Wunsch nach logischer Verknüpfung mit einer früheren Anfrage desselben Unternehmens und Zusammenführung unter einer gemeinsamen Kunden-ID.",
+    "requested_services": [
+      "Use-Case-Workshops & Priorisierung für zwei Projekte (Angebotsbearbeitung, Disposition)",
+      "Architekturplanung inkl. Datenschutz-/Sicherheits- und Governance-Konzept",
+      "Schulungen für Fachanwender (je Use Case) sowie Admin/Key User",
+      "Begleitender Support zur Optimierung von Prompts, Wissensbasis und Workflows",
+      "Zusammenführung/Verknüpfung mehrerer Anfragen unter gemeinsamer customer_id (internes Matching)"
+    ],
+    "constraints": {
+      "budget_range_eur": {
+        "min": 0,
+        "max": 0,
+        "hint": "Kein Budgetrahmen angegeben; Angebot modular aufgebaut."
+      },
+      "start_date_hint": "k. A.",
+      "linking_request": {
+        "requested_by_customer": true,
+        "note": "Der Kunde wünscht die Verknüpfung mit einer früheren Anfrage (unter anderem Absender) und die Zusammenführung beider Vorgänge unter einer gemeinsamen customer_id."
+      }
+    }
+  },
+  "offer_outline": {
+    "currency": "EUR",
+    "pricing": "netto",
+    "line_items": [
+      {
+        "pos": 1,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI – Use Case 1 (Angebotsbearbeitung)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Phase 1"
+      },
+      {
+        "pos": 2,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI – Use Case 2 (Disposition)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Phase 1"
+      },
+      {
+        "pos": 3,
+        "sku": "CONS-ADV",
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (Governance, Datenschutz, Rollen/Rechte, Betriebsprozesse)",
+        "quantity": 2,
+        "unit": "Pauschale",
+        "unit_price_eur": 4500,
+        "total_eur": 9000,
+        "phase_hint": "Phase 1–2"
+      },
+      {
+        "pos": 4,
+        "sku": "TRAIN-CS",
+        "service_name": "Praxis-Schulung Fachanwender (Angebotsbearbeitung & Disposition, kohortenbasiert)",
+        "quantity": 4,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 7200,
+        "phase_hint": "Phase 2"
+      },
+      {
+        "pos": 5,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User (Betrieb, Monitoring/Logging, Policies)",
+        "quantity": 2,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 2000,
+        "phase_hint": "Phase 2"
+      },
+      {
+        "pos": 6,
+        "sku": "SUPPORT-6M",
+        "service_name": "Begleitender Support (6 Monate) – Feinjustierung Prompts/Wissensbasis/Workflows",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4200,
+        "total_eur": 4200,
+        "phase_hint": "Phase 2–3 (begleitend)"
+      },
+      {
+        "pos": 7,
+        "sku": "SUPPORT-3M",
+        "service_name": "Support-Verlängerung (3 Monate) – Zusatzoption",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 2400,
+        "total_eur": 2400,
+        "phase_hint": "Optional",
+        "optional": true
+      },
+      {
+        "pos": 8,
+        "sku": "TRAIN-CS",
+        "service_name": "Zusätzliche Trainings-Tage (Vertiefung / weitere Teams / Rollout)",
+        "quantity": 2,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 3600,
+        "phase_hint": "Optional",
+        "optional": true
+      }
+    ],
+    "subtotal_excluding_optional_eur": 28800,
+    "optional_total_eur": 6000,
+    "subtotal_eur": 34800,
+    "notes": [
+      "Zwei-Projekt-Ansatz: getrennte Use-Case-Workshops, aber gemeinsame Governance/Architektur, um Synergien zu nutzen.",
+      "Verknüpfung mit früherer Anfrage: Im finalen Angebotsdokument kann vermerkt werden, dass diese Anfrage auf Wunsch mit einem früheren Vorgang desselben Unternehmens unter einer gemeinsamen customer_id zusammengeführt wird (vorbehaltlich internem Matching/Bestätigung).",
+      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
+      "Hinweis: Datenschutz-/Compliance-Konzeption wird unterstützt; dies ersetzt keine individuelle Rechtsberatung."
+    ]
+  },
+  "privacy": {
+    "pii_detected_in_input": [
+      "person_name",
+      "email",
+      "phone",
+      "company_name",
+      "street_address"
+    ],
+    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Ein expliziter Vermerk zur Zusammenführung mit einer früheren Anfrage wird nur abstrakt und ohne Nennung von Namen/Adresse/Firmierung formuliert.",
+    "customer_id_used": "CUST-2025-0007"
+  }
+}
 
+Angebotsentwurf für anonymisierten Kunden
+
+Kundensegment: SME
+Land: DE
+Mitarbeiterband: k. A.
+Customer-ID: CUST-2025-0007
+
+Kurzbeschreibung der Anfrage
+
+Gesamtbetrachtung von zwei Projekten:
+
+KI-Assistent für Angebotsbearbeitung
+
+KI-Assistent für Disposition
+
+Zusätzlich gewünscht: logische Verknüpfung mit einer früheren Anfrage desselben Unternehmens und Zusammenführung unter gemeinsamer Customer-ID.
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Initiales Beratungspaket KI – Use Case 1 (Angebotsbearbeitung)	1	Pauschale	3.200	3.200
+2	CONS-START	Initiales Beratungspaket KI – Use Case 2 (Disposition)	1	Pauschale	3.200	3.200
+3	CONS-ADV	Architektur-/Sicherheitsberatung (Governance, Datenschutz, Rollen/Rechte)	2	Pauschale	4.500	9.000
+4	TRAIN-CS	Praxis-Schulung Fachanwender (beide Use Cases, kohortenbasiert)	4	Tag	1.800	7.200
+5	TRAIN-ADMIN	Schulung Admin & Key User (Betrieb, Monitoring/Logging, Policies)	2	Halbtag	1.000	2.000
+6	SUPPORT-6M	Begleitender Support (6 Monate) – Optimierung Prompts/KB/Workflows	1	Pauschale	4.200	4.200
+7*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
+8*	TRAIN-CS	Zusätzliche Trainings-Tage (Vertiefung / weitere Teams / Rollout)	2	Tag	1.800	3.600
+
+Zwischensumme (netto, Basis ohne Optionen): 28.800 €
+Zwischensumme (netto, inkl. Optionen 7–8): 34.800 €
+
+Annahmen und Hinweise
+
+Verknüpfung früherer Anfrage: Im finalen Angebot kann (ohne Nennung von Personen-/Adressdaten) vermerkt werden, dass beide Vorgänge auf Wunsch unter einer gemeinsamen Customer-ID zusammengeführt werden (vorbehaltlich internem Matching/Bestätigung).
+
+Gemeinsame Governance/Architektur reduziert Doppelaufwand zwischen Angebotsbearbeitung und Disposition.
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+Datenschutz-/Compliance-Konzeption wird unterstützt; keine individuelle Rechtsberatung.
+
+*Pos. 7–8 sind optional.
