@@ -1,1 +1,225 @@
+{
+  "customer_anonymized": {
+    "customer_id": "CUST-2025-0003",
+    "segment": "SME",
+    "country": "EU (IT/DE/AT)",
+    "industry": "Retail / Handel",
+    "employee_band": "k. A.",
+    "source_channel": "web_form"
+  },
+  "request_structured": {
+    "received_at_utc": "2025-12-11T15:22:00Z",
+    "language": "en",
+    "use_case_summary": "Einführung eines internen KI-Assistenten für Store Manager und Customer Support: Use-Case-Identifikation (Support & Store Operations), Referenzarchitektur unter EU-Datenschutzanforderungen, Trainings für ca. 60 Personen sowie optional 6 Monate Support zur Optimierung von Prompts, Wissensbasis und Workflows; phasenweise mit Pilot in Deutschland.",
+    "requested_services": [
+      "Use-Case-Portfolio-Workshop & Priorisierung (Support & Store Operations)",
+      "Referenzarchitektur inkl. Datenschutz-, Sicherheits- und Governance-Konzept (EU/DSGVO)",
+      "Trainings für Store Manager (ca. 40) und Support Agents (ca. 20)",
+      "Begleitender Support über 6 Monate zur kontinuierlichen Optimierung",
+      "Phasenplan: Pilot in DE, danach Rollout auf weitere Länder"
+    ],
+    "constraints": {
+      "budget_range_eur": {
+        "min": 40000,
+        "max": 60000,
+        "hint": "Budgetschätzung für das erste Jahr ca. 40.000–60.000 EUR; gewünschtes modulares Angebot."
+      },
+      "start_date_hint": "Flexibler Start im nächsten Quartal (Q1 2026).",
+      "timeline": {
+        "phase_1": "Pilot Deutschland: Use Cases + Referenzarchitektur + erste Enablement-Sessions (Q1 2026)",
+        "phase_2": "Rollout IT/AT: Erweiterung Use Cases, zusätzliche Trainings, Betriebs-/Adoption-Begleitung (Q2–Q3 2026)"
+      }
+    }
+  },
+  "offer_outline": {
+    "currency": "EUR",
+    "pricing": "netto",
+    "line_items": [
+      {
+        "pos": 1,
+        "sku": "CONS-START",
+        "service_name": "Initiales Beratungspaket KI (Pilot-Workshop & Use-Case-Sichtung)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 3200,
+        "phase_hint": "Phase 1 (Pilot DE)"
+      },
+      {
+        "pos": 2,
+        "sku": "CONS-ADV",
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (DSGVO/Governance Referenzarchitektur)",
+        "quantity": 2,
+        "unit": "Pauschale",
+        "unit_price_eur": 4500,
+        "total_eur": 9000,
+        "phase_hint": "Phase 1 (Pilot DE)"
+      },
+      {
+        "pos": 3,
+        "sku": "TRAIN-CS",
+        "service_name": "Schulung (Kohorten) für Store Manager & Support Teams",
+        "quantity": 4,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 7200,
+        "phase_hint": "Phase 1–2"
+      },
+      {
+        "pos": 4,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User (Betrieb, Wissensquellen, Monitoring/Logging)",
+        "quantity": 2,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 2000,
+        "phase_hint": "Phase 1 (Pilot DE)"
+      },
+      {
+        "pos": 5,
+        "sku": "SUPPORT-6M",
+        "service_name": "Begleitender Support (6 Monate) – Prompt-/Wissensbasis-/Workflow-Optimierung",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4200,
+        "total_eur": 4200,
+        "phase_hint": "Phase 1–2 (begleitend)"
+      },
+      {
+        "pos": 6,
+        "sku": "CONS-START",
+        "service_name": "Zusatz-Workshop(s) für Rollout IT/AT (Use-Case-Transfer & Anpassungen)",
+        "quantity": 2,
+        "unit": "Pauschale",
+        "unit_price_eur": 3200,
+        "total_eur": 6400,
+        "phase_hint": "Phase 2 (Rollout IT/AT)",
+        "optional": true
+      },
+      {
+        "pos": 7,
+        "sku": "CONS-ADV",
+        "service_name": "Zusatzpaket Governance/Compliance-Feinschliff (Rollout, Länder-/Prozessanpassungen)",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 4500,
+        "total_eur": 4500,
+        "phase_hint": "Phase 2 (Rollout IT/AT)",
+        "optional": true
+      },
+      {
+        "pos": 8,
+        "sku": "TRAIN-CS",
+        "service_name": "Zusätzliche Trainings-Tage (weitere Kohorten / Rollout-Bedarf)",
+        "quantity": 2,
+        "unit": "Tag",
+        "unit_price_eur": 1800,
+        "total_eur": 3600,
+        "phase_hint": "Phase 2 (Rollout IT/AT)",
+        "optional": true
+      },
+      {
+        "pos": 9,
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Zusätzlicher Admin-/Key-User-Termin (Rollout-Betrieb)",
+        "quantity": 1,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 1000,
+        "phase_hint": "Phase 2 (Rollout IT/AT)",
+        "optional": true
+      },
+      {
+        "pos": 10,
+        "sku": "SUPPORT-3M",
+        "service_name": "Support-Verlängerung (3 Monate) – Zusatzoption",
+        "quantity": 1,
+        "unit": "Pauschale",
+        "unit_price_eur": 2400,
+        "total_eur": 2400,
+        "phase_hint": "Optional (Verlängerung nach 6 Monaten)",
+        "optional": true
+      }
+    ],
+    "subtotal_excluding_optional_eur": 25600,
+    "optional_total_eur": 17900,
+    "subtotal_eur": 43500,
+    "notes": [
+      "Modularer Aufbau: Basis umfasst Pilot (DE) + Referenzarchitektur + Trainingsgrundlage + 6 Monate Support; Rollout-Bausteine sind optional.",
+      "Trainingsplanung: TRAIN-CS ist als Kohortenmodell kalkuliert; bei 60 Teilnehmenden sind zusätzliche Tage (optional) realistisch, falls getrennte Rollen/Länder oder mehr Interaktion gewünscht ist.",
+      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
+      "Optionaler Paket-Rabatt (5–10 %) kann bei Angebotsvolumen > 15.000 EUR angeboten werden (nicht eingerechnet).",
+      "Richtangebot, Gültigkeit 30 Tage ab Angebotsdatum; Zahlungsziel üblicherweise 14 Tage nach Rechnungsstellung."
+    ]
+  },
+  "privacy": {
+    "pii_detected_in_input": [
+      "person_name",
+      "email",
+      "phone",
+      "company_name",
+      "street_address"
+    ],
+    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden nur abstrahierte Merkmale (Segment, Branche, Länderbetrieb, grobe Größen-/Teilnehmerangaben) verwendet.",
+    "customer_id_used": "CUST-2025-0003"
+  }
+}
+
+Angebotsentwurf für anonymisierten Kunden
+
+Kundensegment: SME
+Land: EU (IT/DE/AT)
+Mitarbeiterband: k. A.
+Customer-ID: CUST-2025-0003
+
+Kurzbeschreibung der Anfrage
+
+Interner KI-Assistent für Store Manager & Customer Support: Use Cases identifizieren, EU-DSGVO-konforme Referenzarchitektur, Trainings (ca. 60 Teilnehmende), 6 Monate Support; Pilot zuerst in Deutschland, danach Rollout.
+
+Gewünschte Leistungen:
+
+Use-Case-Portfolio & Priorisierung (Support & Store Operations)
+
+Referenzarchitektur inkl. Governance/Datenschutz/Sicherheit
+
+Trainings für Store Manager (ca. 40) und Support Agents (ca. 20)
+
+6 Monate Support zur Optimierung von Prompts, Wissensbasis und Workflows
+
+Modularer, phasenweiser Ansatz (Pilot DE → Rollout IT/AT)
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Beratungspaket KI (Pilot-Workshop & Use-Case-Sichtung)	1	Pauschale	3.200	3.200
+2	CONS-ADV	Architektur-/Sicherheitsberatung (DSGVO/Governance)	2	Pauschale	4.500	9.000
+3	TRAIN-CS	Schulung (Kohorten) Store Manager & Support Teams	4	Tag	1.800	7.200
+4	TRAIN-ADMIN	Schulung Admin & Key User	2	Halbtag	1.000	2.000
+5	SUPPORT-6M	Begleitender Support (6 Monate)	1	Pauschale	4.200	4.200
+6*	CONS-START	Zusatz-Workshop(s) Rollout IT/AT	2	Pauschale	3.200	6.400
+7*	CONS-ADV	Zusatzpaket Governance/Compliance-Feinschliff (Rollout)	1	Pauschale	4.500	4.500
+8*	TRAIN-CS	Zusätzliche Trainings-Tage (weitere Kohorten / Rollout-Bedarf)	2	Tag	1.800	3.600
+9*	TRAIN-ADMIN	Zusätzlicher Admin-/Key-User-Termin (Rollout-Betrieb)	1	Halbtag	1.000	1.000
+10*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
+
+Zwischensumme (netto, Basis ohne Optionen): 25.600 €
+Optionen gesamt (netto): 17.900 €
+Zwischensumme (netto, inkl. aller Optionen): 43.500 €
+
+Annahmen und Hinweise
+
+Budgetrahmen (falls vorhanden): 40.000–60.000 € p. a. (modularer Aufbau unterstützt gestaffelte Beauftragung)
+
+Geplanter Start (falls vorhanden): flexibel in Q1 2026
+
+Pilot-Ansatz: Basispositionen decken den Start in DE ab; Rollout-Positionen sind optional für IT/AT.
+
+TRAIN-CS ist als Kohortenmodell geplant; bei getrennten Rollen/Ländern oder höherem Interaktionsbedarf sind Zusatz-Tage sinnvoll (Optionen).
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+Optional: Paket-Rabatt (5–10 %) bei Angebotsvolumen > 15.000 € (nicht eingerechnet).
+
+Unverbindliches Richtangebot, i. d. R. 30 Tage gültig; übliches Zahlungsziel 14 Tage.
+
+Preis-/SKU-Basis gemäß internem Leistungskatalog.
 
