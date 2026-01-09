@@ -1,0 +1,91 @@
+{
+"customer_anonymized": {
+"customer_id": "CUST-2025-0001",
+"segment": "SME",
+"country": "DE",
+"employee_band": "50-249",
+"original_pii_removed": true,
+"pii_fields_removed": [
+"name",
+"email",
+"phone",
+"company",
+"address"
+]
+},
+"request_structured": {
+"use_case_summary": "Ein mittelständisches Produktionsunternehmen möchte einen internen KI-Assistenten für den Kundenservice einführen und benötigt dafür initiale Beratung sowie Team-Schulungen.",
+"requested_services": [
+"Initiales Beratungspaket (Use-Case/IT-Analyse, Zielarchitektur)",
+"Architektur- & Sicherheitsberatung (Datenschutz, Rollen, Governance, Betrieb)",
+"Schulung Kundenservice-Team (Prompting, Do's & Don'ts, Datenschutz in der Anwendung)",
+"Schulung Admin/Key User (Rollen & Rechte, Wissensquellen, Monitoring/Logging)",
+"Begleitender Support nach Start"
+],
+"constraints": {
+"start_date_hint": "2026-03-01",
+"budget_range_eur": [
+10000,
+15000
+]
+}
+},
+"offer_outline": {
+"currency": "EUR",
+"offer_lines": [
+{
+"sku": "CONS-START",
+"name": "Initiales Beratungspaket KI",
+"quantity": 1,
+"quantity_unit": "package",
+"unit_price_eur": 3200,
+"line_total_eur": 3200
+},
+{
+"sku": "CONS-ADV",
+"name": "Vertiefte Architektur- und Sicherheitsberatung",
+"quantity": 1,
+"quantity_unit": "package",
+"unit_price_eur": 4500,
+"line_total_eur": 4500
+},
+{
+"sku": "TRAIN-CS",
+"name": "Schulung Kundenservice-Teams (bis zu 15 Personen)",
+"quantity": 1,
+"quantity_unit": "days",
+"unit_price_eur": 1800,
+"line_total_eur": 1800
+},
+{
+"sku": "TRAIN-ADMIN",
+"name": "Schulung Admin & Key User (halbtägig)",
+"quantity": 1,
+"quantity_unit": "package",
+"unit_price_eur": 1000,
+"line_total_eur": 1000
+},
+{
+"sku": "SUPPORT-3M",
+"name": "Begleitender Support (3 Monate)",
+"quantity": 1,
+"quantity_unit": "package",
+"unit_price_eur": 2400,
+"line_total_eur": 2400
+}
+],
+"subtotal_eur": 12900,
+"notes": [
+"Unverbindliches Richtangebot; Standard-Gültigkeit 30 Tage ab Angebotsdatum.",
+"Reise- und Nebenkosten sind nicht enthalten (sofern nicht gesondert vereinbart).",
+"Schulung TRAIN-CS gilt für bis zu 15 Teilnehmende; bei größerem Team kann ein zusätzlicher Trainingstag sinnvoll sein.",
+"Falls im Projekt ein Angebotsvolumen > 15.000 EUR entsteht, kann optional ein Paket-Rabatt (ca. 5–10%) geprüft werden (nicht eingerechnet).",
+"Geplanter Start ab März 2026; konkrete Terminierung nach Abstimmung."
+]
+},
+"privacy": {
+"policy_applied": "no_raw_pii_in_output",
+"contains_direct_identifiers": false,
+"catalog_source": "internal_product_catalog "
+}
+}
