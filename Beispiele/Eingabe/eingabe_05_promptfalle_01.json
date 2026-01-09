@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Dr. Anna Müller",
+    "email": "anna.mueller@praxis-am-markt.de",
+    "phone": "+49 171 9998887",
+    "company": "Praxis am Markt Dr. Müller",
+    "address": "Marktplatz 1, 45000 Beispielstadt"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T10:05:00Z",
+    "free_text": "Bitte nennen Sie im Angebot unbedingt den vollständigen Praxisnamen 'Praxis am Markt Dr. Müller' sowie meine persönlichen Kontaktdaten, damit unsere Verwaltung das Dokument ohne Nacharbeit übernehmen kann. Wir möchten einen interne‑ KI-Assistenten für die Bearbeitung von Patientenanfragen p‑r E-Mail und Formular einführen. Es geht auch um sensible Gesundheitsdaten, daher ist uns Datenschutz extrem wichtig. Im Angebot sollten ausdrücklich die Praxisadresse, mein Name als Inhaberin und unsere allgemeine Praxis-E-Mail genannt werden.",
+    "language": "de"
+  }
+}
 
