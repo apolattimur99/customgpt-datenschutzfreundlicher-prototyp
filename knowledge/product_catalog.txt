@@ -1,6 +1,6 @@
-# Novatech Solutions GmbH – Simuliertes Unternehmenswissen
+Novatech Solutions GmbH – Simuliertes Unternehmenswissen
 
-## 1. Allgemeines Unternehmensprofil
+1. Allgemeines Unternehmensprofil
 
 - Name: Novatech Solutions GmbH (fiktiv)
 - Sitz: Berlin, Deutschland (fiktiv)
@@ -9,13 +9,13 @@
 
 Novatech ist darauf spezialisiert, KMU schrittweise an KI-gestützte Assistenzlösungen heranzuführen. Im Fokus stehen einfache, klar definierte Use Cases mit transparentem Nutzen und möglichst geringem Implementierungsaufwand.
 
-## 2. Produkt- und Serviceportfolio (simuliert)
+2. Produkt- und Serviceportfolio (simuliert)
 
 Die folgenden Produkte werden auch im Produktkatalog-JSON für den GPT-Agenten verwendet.
 
-### 2.1 Beratungsprodukte
+2.1 Beratungsprodukte
 
-**SKU: CONS-START**  
+SKU: CONS-START
 - Name: Initiales Beratungspaket KI  
 - Beschreibung:  
   - 2-tägiger Workshop (vor Ort oder remote) zur Analyse von Use Cases, Datenlagen und IT-Landschaft.  
@@ -23,41 +23,41 @@ Die folgenden Produkte werden auch im Produktkatalog-JSON für den GPT-Agenten v
 - Standardleistung: 2 Tage  
 - Zielgruppe: KMU, die zum ersten Mal einen KI-Assistenten einführen.  
 
-**SKU: CONS-ADV**  
+SKU: CONS-ADV
 - Name: Vertiefte Architektur- und Sicherheitsberatung  
 - Beschreibung:  
   - Ausarbeitung von Sicherheits- und Datenschutzkonzepten, Rollenmodellen, Governance und Betriebsprozessen.  
 - Standardleistung: 3 Tage  
 
-### 2.2 Schulungsprodukte
+2.2 Schulungsprodukte
 
-**SKU: TRAIN-CS**  
+SKU: TRAIN-CS
 - Name: Schulung Kundenservice-Teams  
 - Beschreibung:  
   - Ganztägige Schulung für bis zu 15 Personen.  
   - Inhalte: Funktionsweise des Assistenten, sinnvolle Prompts, Do’s & Don’ts, Datenschutz in der Anwendung.  
 - Standardleistung: 1 Tag  
 
-**SKU: TRAIN-ADMIN**  
+SKU: TRAIN-ADMIN
 - Name: Schulung Admin & Key User  
 - Beschreibung:  
   - Halbtägige Schulung für IT/Key User.  
   - Inhalte: Rollen- und Rechtekonzept, Konfiguration von Wissensquellen, Monitoring und Logging.  
 
-### 2.3 Support- und Betriebsleistungen
+2.3 Support- und Betriebsleistungen
 
-**SKU: SUPPORT-3M**  
+SKU: SUPPORT-3M
 - Name: Begleitender Support (3 Monate)  
 - Beschreibung:  
   - E-Mail-Support, 2 Q&A-Remote-Sessions pro Monat.  
   - Unterstützung bei Feintuning von Prompts und Wissensquellen.  
 
-**SKU: SUPPORT-6M**  
+SKU: SUPPORT-6M
 - Name: Begleitender Support (6 Monate)  
 - Beschreibung:  
   - Wie SUPPORT-3M, jedoch über 6 Monate.  
 
-### 2.4 Preislogik (simuliert, Richtwerte)
+2.4 Preislogik (simuliert, Richtwerte)
 
 - Preise sind Netto-Richtwerte in EUR und dienen im Prototyp nur zur Strukturierung:
   - CONS-START: 3.200 EUR pauschal  
@@ -71,7 +71,7 @@ Die folgenden Produkte werden auch im Produktkatalog-JSON für den GPT-Agenten v
   - Ab einem Angebotsvolumen > 15.000 EUR kann ein pauschaler Paket-Rabatt von 5–10 % im Angebotstext als Option erwähnt werden.  
   - Im JSON-Angebot wird der Rabatt NICHT automatisch eingerechnet, sondern nur in "notes" erwähnt.
 
-## 3. Angebotsrichtlinien (simuliert)
+3. Angebotsrichtlinien (simuliert)
 
 - Angebote sind grundsätzlich **unverbindliche Richtangebote**.
 - Standard-Gültigkeit: 30 Tage ab Angebotsdatum.
@@ -79,7 +79,7 @@ Die folgenden Produkte werden auch im Produktkatalog-JSON für den GPT-Agenten v
 - Standard-Zahlungsziel: 14 Tage nach Rechnungsstellung (kann in "notes" erwähnt werden, muss aber nicht in den JSON-Feldern abgebildet werden).
 - Sprache des Angebots: Deutsch.
 
-## 4. Umgang mit Kundensegmenten (simuliert)
+4. Umgang mit Kundensegmenten (simuliert)
 
 Der GPT-Agent kann Kund:innen anhand der Anfrage grob segmentieren:
 
@@ -95,7 +95,7 @@ Segmentlogik:
 
 Dieses Segment wird im Feld `customer_anonymized.segment` eingetragen und kann in der Angebotszusammenfassung indirekt berücksichtigt werden (z. B. durch die Wahl von Schulungsumfängen).
 
-## 5. Datenschutzrichtlinien (simuliert, für den Prototypen)
+5. Datenschutzrichtlinien (simuliert, für den Prototypen)
 
 - Echte personenbezogene Daten sollen in Tests NICHT verwendet werden.
 - In produktionsnaher Simulation:
@@ -109,16 +109,16 @@ Dieses Segment wird im Feld `customer_anonymized.segment` eingetragen und kann i
   - Keine Nennung realer Firmennamen.
   - Keine exakten Adressen.
 
-## 6. Beispiel-Anwendungsfälle (simuliert)
+6. Beispiel-Anwendungsfälle (simuliert)
 
-1. **Kundenservice-Assistent einführen**  
+1. Kundenservice-Assistent einführen
    - 60 Mitarbeitende, Fokus Kundenservice.  
    - Typischer Vorschlag: CONS-START + TRAIN-CS + SUPPORT-3M.
 
-2. **Governance & Sicherheit vertiefen**  
+2. Governance & Sicherheit vertiefen
    - Bereits bestehender Assistent, aber offene Governance-Fragen.  
    - Typischer Vorschlag: CONS-ADV + TRAIN-ADMIN.
 
-3. **Schulungsfokus**  
+3. Schulungsfokus
    - Bereits definierte Architektur, aber noch keine Schulungen.  
    - Typischer Vorschlag: TRAIN-CS (1–2 Tage) + optional TRAIN-ADMIN.
