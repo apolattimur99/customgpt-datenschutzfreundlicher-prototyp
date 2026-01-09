@@ -1,1 +1,16 @@
+{
+  "customer_raw": {
+    "name": "Thomas Berger",
+    "email": "t.berger@consulting-plus.example",
+    "phone": "+49 89 5551234",
+    "company": "Consulting Plus AG",
+    "address": "Platz der Kooperation 3, 80331 München"
+  },
+  "request": {
+    "channel": "web_form",
+    "timestamp_utc": "2025-12-12T09:40:00Z",
+    "free_text": "Sehr geehrtes Team, wir beraten unsere eigenen Kunden zu Digitalisierungsthemen und möchten unsere interne Nutzung von KI-Assistenten professionalisieren. Derzeit nutzen einzelne Teams frei verfügbare Online-Tools ohne übergreifende Strategie. Wir suchen ein Angebot für ein initiales Beratungs- und Schulungspaket, das (1) unsere internen-Use Cases sortiert, (2) klare Nutzungsrichtlinien und Governance-Ansätze entwickelt und (3) das Beraterteam  ca. 25 Personen) in der praktischen Anwendung vo‑ KI-Assistenten schult. Wir haben keinen fixen Budgetrahmen, orientieren uns aber an einem mittleren fünfstelligen Betrag, verteilt über mehrere Monate. Start wäre idealerweise flexibel im nächsten Quartal.",
+    "language": "de"
+  }
+}
 
