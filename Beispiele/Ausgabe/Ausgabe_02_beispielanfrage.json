@@ -115,5 +115,53 @@
     "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Im Output werden nur abstrahierte Merkmale (Segment, Branche, Land, Mitarbeiterband) verwendet.",
     "cu
 
+Angebotsentwurf für anonymisierten Kunden
 
+Kundensegment: Small
+Land: DE
+Mitarbeiterband: 10-49
+Customer-ID: CUST-2025-0002
 
+Kurzbeschreibung der Anfrage
+
+Interne KI-Nutzung professionalisieren: Use Cases ordnen, Governance/Nutzungsrichtlinien definieren, Beraterteam (ca. 25 Personen) praxisnah schulen
+
+Gewünschte Leistungen:
+
+Use-Case-Portfolio & Priorisierung
+
+Governance, Richtlinien, Rollen/Rechte, Betriebsprozesse
+
+Schulungen für Beraterteam sowie Admin/Key User
+
+Begleitender Support zur Adoption über mehrere Monate
+
+Angebotspositionen
+Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
+1	CONS-START	Initiales Beratungspaket KI	1	Pauschale	3.200	3.200
+2	CONS-ADV	Vertiefte Architektur-/Sicherheitsberatung (Governance)	2	Pauschale	4.500	9.000
+3	TRAIN-CS	Praxis-Schulung (Beraterteam, Kohorten/Module)	5	Tag	1.800	9.000
+4	TRAIN-ADMIN	Schulung Admin & Key User	3	Halbtag	1.000	3.000
+5	SUPPORT-6M	Begleitender Support (6 Monate)	1	Pauschale	4.200	4.200
+6	SUPPORT-3M	Begleitender Support (3 Monate) – Zusatzkontingent	1	Pauschale	2.400	2.400
+
+Zwischensumme (netto): 30.800 €
+
+Annahmen und Hinweise
+
+Budgetrahmen (falls vorhanden): Orientierung mittlerer fünfstelliger Betrag über mehrere Monate
+
+Geplanter Start (falls vorhanden): flexibel in Q1 2026
+
+TRAIN-CS ist hier als modulare Praxis-Schulung für das Beraterteam geplant (z. B. Kohorten + Vertiefungstage).
+
+Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
+
+Optional: Paket-Rabatt (5–10 %) bei Angebotsvolumen > 15.000 € (nicht eingerechnet).
+
+Unverbindliches Richtangebot, i. d. R. 30 Tage gültig; übliches Zahlungsziel 14 Tage.
+
+Preis-/SKU-Basis gemäß internem Leistungskatalog.
+stomer_id_used": "CUST-2025-0002"
+  }
+}
