@@ -24,13 +24,17 @@ Die Ausgabe erfolgt in drei Blöcken:
 
 ### Schritt-für-Schritt (GPT-Builder)
 1. Öffnen Sie https://chatgpt.com/ und klicken Sie in der linken Seitenleiste auf **„GPTs“**.
+   
 <img src="docs/screenshots/01_navigation_gpts.png" width="250">
+
 2. Klicken Sie oben rechts auf **„Erstellen“**, um einen neuen Custom GPT anzulegen.
-<img src="docs/screenshots/02_gpts_erstellen_button" width="250">
-4. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
-5. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
-6. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
-7. Speichere den Custom GPT und öffne anschließend die **Vorschau** (rechts), um Tests durchzuführen.
+   
+<img src="docs/screenshots/02_gpts_erstellen_button.png" width="650">
+
+5. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
+6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
+7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
+8. Speichere den Custom GPT und öffne anschließend die **Vorschau** (rechts), um Tests durchzuführen.
 
 > Hinweis: Die Ausgabe ist als 3-Block-Format definiert (JSON / Tabelle / Text). Der JSON-Block ist maschinenlesbar und dient als Referenz für die Testfälle in `tests/`.
 
