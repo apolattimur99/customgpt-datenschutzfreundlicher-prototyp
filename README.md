@@ -47,7 +47,9 @@ Die Ausgabe erfolgt in drei Blöcken:
 
 <img src="docs/screenshots/04_konfiguration_ausgefuellt.png" width="650">
 
-5. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
+5. Wählen Sie unter `tests/eingabe/` eine Beispielanfrage aus, kopieren Sie den JSON-Inhalt in den Chat und führen Sie den Testlauf aus.
+
+
 6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
 7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
 8. Speichere den Custom GPT und öffne anschließend die **Vorschau** (rechts), um Tests durchzuführen.
