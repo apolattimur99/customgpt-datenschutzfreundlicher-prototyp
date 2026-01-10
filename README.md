@@ -22,12 +22,9 @@ Die Ausgabe erfolgt in drei Blöcken:
   - `customgpt/systemprompt.txt`
   - `customgpt/wissenslog.txt`
 
-### Link zum ChatGPT (GPT-Builder)
-https://chatgpt.com/
-
 ### Schritt-für-Schritt (GPT-Builder)
-1. Öffne den GPT-Builder und wähle **„Neuer GPT“**.
-![Navigation zu GPTs](docs/screenshots/01_navigation_gpts.png)
+1. Öffnen Sie https://chatgpt.com/ und klicken Sie in der linken Seitenleiste auf **„GPTs“**.
+<img src="docs/screenshots/01_navigation_gpts.png" width="250">
 3. Wechsle in den Tab **„Konfigurieren“**.
 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
 5. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
