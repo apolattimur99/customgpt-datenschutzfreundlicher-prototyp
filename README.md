@@ -35,6 +35,16 @@ Die Ausgabe erfolgt in drei Blöcken:
 
 <img src="docs/screenshots/03_builder_konfigurieren.png" width="650">
 
+4. Hinterlegen Sie die Konfiguration wie folgt:
+   - **Name:** „Novatech Solutions GmbH – Angebots-Assistent“
+   - **Beschreibung:** „Prototyp zur strukturierten Verarbeitung von Anfragen und zur Erstellung standardisierter Angebotsentwürfe unter Berücksichtigung von Datenschutzanforderungen.“
+   - Unter **„Hinweise“** den Inhalt aus `customgpt/systemprompt.txt` einfügen.
+   - **„Gesprächsaufhänger“** frei lassen.
+   - Unter **„Wissen“** die Datei `customgpt/Wissenslog.txt` hochladen.
+   - Bei **„Empfohlenes Modell“**: **GPT-5.1 Thinking** auswählen.
+   - Unter **„Funktionen“** alle vier Häkchen deaktivieren (Internetsuche, Canvas, Bildgenerierung, Code-Interpreter & Datenanalyse).
+   - **„Aktionen“** frei lassen (keine Aktionen hinzufügen).
+
 5. 4. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
 6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
 7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
