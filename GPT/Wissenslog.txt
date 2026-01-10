@@ -5,14 +5,14 @@ Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Dem
 1. Unternehmensprofil
 	-Name: Novatech Solutions GmbH (fiktiv)
 	-Sitz: Berlin, Deutschland (fiktiv)
-	-Leistungsfokus: Beratung und Implementierungsunterstützung für KI-Assistenzsysteme, Prozessautomatisierung 	sowie Anwenderschulungen.
+	-Leistungsfokus: Beratung und Implementierungsunterstützung für KI-Assistenzsysteme, Prozessautomatisierung sowie Anwenderschulungen.
 	-Zielgruppe: Kleine und mittlere Unternehmen (KMU) aus Dienstleistung, Handel und leichter Produktion.
 
-	Novatech unterstützt KMU bei der schrittweisen Einführung von KI-gestützten Assistenzlösungen. Der 				Schwerpunkt liegt auf klar abgegrenzten Use Cases, nachvollziehbarer Nutzenargumentation und einem 				ressourcenschonenden Vorgehen.
+	Novatech unterstützt KMU bei der schrittweisen Einführung von KI-gestützten Assistenzlösungen. Der Schwerpunkt liegt auf klar abgegrenzten Use Cases, nachvollziehbarer Nutzenargumentation und einem ressourcenschonenden Vorgehen.
 
 2. Produkt- und Serviceportfolio
 
-	Die folgenden Leistungen werden im Prototyp als interne Angebotsbausteine verwendet. Identifikation und 		Abrechnung erfolgen über SKUs.
+	Die folgenden Leistungen werden im Prototyp als interne Angebotsbausteine verwendet. Identifikation und Abrechnung erfolgen über SKUs.
 
 2.1 Beratungsleistungen
 
@@ -73,8 +73,8 @@ Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Dem
 		-SUPPORT-6M: 4.200 EUR (Pauschale)
 
 3.1 Rabattlogik (Hinweis im Angebotstext)
-	-Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt von 5–10 % im Angebotstext erwähnt 		werden.
-	-Im JSON-Angebot wird der Rabatt nicht automatisch eingerechnet, sondern nur als Hinweis (z. B. in notes) 		dokumentiert.
+	-Ab einem Angebotsvolumen > 15.000 EUR kann optional ein Paket-Rabatt von 5–10 % im Angebotstext erwähnt werden.
+	-Im JSON-Angebot wird der Rabatt nicht automatisch eingerechnet, sondern nur als Hinweis (z. B. in notes) dokumentiert.
 
 4. Angebotsrichtlinien (Prototyp)
 	-Angebote sind grundsätzlich unverbindliche Richtangebote.
@@ -96,7 +96,7 @@ Hinweis: Die nachfolgenden Inhalte dienen ausschließlich der prototypischen Dem
 		-Wenn 50–200 Mitarbeitende erwähnt → SME
 		-Wenn „Konzern“ oder > 250 erwähnt → Enterprise
 
-	Das Segment wird im Feld customer_anonymized.segment abgebildet und kann bei der Wahl von Schulungsumfängen 	berücksichtigt werden.
+	Das Segment wird im Feld customer_anonymized.segment abgebildet und kann bei der Wahl von Schulungsumfängen berücksichtigt werden.
 
 6. Datenschutzrichtlinien (für Prototypbetrieb)
 	-In Tests sollen keine echten personenbezogenen Daten verwendet werden.
