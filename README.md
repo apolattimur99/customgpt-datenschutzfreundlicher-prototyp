@@ -13,10 +13,26 @@ Die Ausgabe erfolgt in drei Blöcken:
 - **Block 2:** Tabelle (übersichtliche Angebotspositionen)
 - **Block 3:** Text (Zusammenfassung und Hinweise)
 
-## Schnelltest
-1. Öffne eine Datei aus `tests/input/` und kopiere den JSON-Input.
-2. Füge ihn in den CustomGPT ein.
-3. Vergleiche das Ergebnis mit der passenden Datei in `tests/output/`.
+## Prototyp nachbauen (Voraussetzungen & Schritte)
+
+### Voraussetzungen
+- Ein ChatGPT-Konto mit Zugriff auf **Custom GPTs** (GPT-Builder).
+- Zugriff auf die Dateien aus diesem Repository:
+  - `custom-gpt/systemprompt.txt`
+  - `custom-gpt/wissenslog.txt`
+
+### Link zum Custom GPT
+- Custom GPT: <HIER_DEINEN_LINK_EINFÜGEN>
+
+### Schritt-für-Schritt (GPT-Builder)
+1. Öffne den GPT-Builder und wähle **„Neuer GPT“**.
+2. Wechsle in den Tab **„Konfigurieren“**.
+3. Kopiere den Inhalt aus `custom-gpt/systemprompt.txt` in das Feld **„Hinweise“**.
+4. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
+5. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
+6. Speichere den Custom GPT und öffne anschließend die **Vorschau** (rechts), um Tests durchzuführen.
+
+> Hinweis: Die Ausgabe ist als 3-Block-Format definiert (JSON / Tabelle / Text). Der JSON-Block ist maschinenlesbar und dient als Referenz für die Testfälle in `tests/`.
 
 ## Repository-Inhalt
 - `custom-gpt/` – Systemprompt und Wissenslog (Produktkatalog/Regeln)
