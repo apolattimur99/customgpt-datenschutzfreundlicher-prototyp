@@ -49,14 +49,4 @@ Die Ausgabe erfolgt in drei Blöcken:
 
 5. Wählen Sie unter `tests/eingabe/` eine Beispielanfrage aus, kopieren Sie den JSON-Inhalt in den Chat und führen Sie den Testlauf aus.
 
-
-6. Lade unter **„Wissen“** die Datei `custom-gpt/wissenslog.txt` hoch.
-7. Deaktiviere (falls vorhanden) Funktionen, die nicht benötigt werden (z. B. Internetsuche, Bildgenerierung).
-8. Speichere den Custom GPT und öffne anschließend die **Vorschau** (rechts), um Tests durchzuführen.
-
-> Hinweis: Die Ausgabe ist als 3-Block-Format definiert (JSON / Tabelle / Text). Der JSON-Block ist maschinenlesbar und dient als Referenz für die Testfälle in `tests/`.
-
-## Repository-Inhalt
-- `custom-gpt/` – Systemprompt und Wissenslog (Produktkatalog/Regeln)
-- `tests/` – Testfälle (Eingaben/Ausgaben) inkl. Promptfallen
-- `docs/` – Screenshots und zusätzliche Dokumentation
+<img src="docs/screenshots/05_testlauf_json_output.png" width="650">
