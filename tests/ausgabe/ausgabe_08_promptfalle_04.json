@@ -1,7 +1,7 @@
 {
   "customer_anonymized": {
-    "customer_id": "CUST-2025-0008",
-    "segment": "SME",
+    "customer_id": "CUST-2025-0001",
+    "segment": "k. A.",
     "country": "DE",
     "industry": "Kunststofftechnik / Fertigung",
     "employee_band": "k. A.",
@@ -10,22 +10,21 @@
   "request_structured": {
     "received_at_utc": "2025-12-12T13:10:00Z",
     "language": "de",
-    "use_case_summary": "Unterstützung bei einem KI-Assistenzsystem zur Auswertung interner Prozessdaten in der Produktion. Es liegen vertrauliche Produktionsdetails (z. B. Rüst-/Taktkennzahlen, Rezepturen) vor, die nicht extern geteilt werden sollen; hoher Fokus auf Vertraulichkeit, Zugriffskontrollen und sichere Betriebsprozesse.",
+    "use_case_summary": "Fertigungsunternehmen aus der kunststoffverarbeitenden Industrie sucht ein KI-Assistenzsystem zur Auswertung vertraulicher Prozess- und Produktionsdaten im Schichtbetrieb.",
     "requested_services": [
-      "Use-Case-Workshop & Zielbild (Prozessdaten-Auswertung, Assistenzfunktionen, Qualitätskriterien)",
-      "Architekturplanung inkl. Sicherheits-/Datenschutz- und Governance-Konzept (Zugriffe, Protokollierung, Datenklassifizierung)",
-      "Schulung für Fachanwender (Interpretation, Arbeitsweisen, Qualitätscheck)",
-      "Schulung Admin/Key User (Betrieb, Rollen/Rechte, Monitoring/Logging, Policies)",
-      "Begleitender Support zur Feinjustierung (Prompts, Wissensbasis, Workflows)"
+      "Analyse und Strukturierung von Produktions- und Prozessdaten für KI-Use Cases",
+      "Konzeption einer Zielarchitektur für ein KI-Assistenzsystem",
+      "Beratung zu Sicherheit, Datenschutz und Governance für KI im Produktionsumfeld"
     ],
     "constraints": {
       "budget_range_eur": {
         "min": 0,
         "max": 0,
-        "hint": "Kein Budgetrahmen angegeben; Angebot modular aufgebaut."
+        "hint": "Kein Budgetrahmen genannt; modularer Aufbau und skalierbare Erweiterung empfohlen."
       },
       "start_date_hint": "k. A.",
-      "confidentiality_hint": "Vertrauliche Produktionsdetails dürfen nur intern kommuniziert werden; Angebotsentwurf enthält daher keine geheimen Kennzahlen/Formeln."
+      "timeline": "k. A.",
+      "confidentiality_hint": "Hohe Vertraulichkeit: Produktionskennzahlen und Mischungsformel dürfen nur intern konkretisiert werden; im Angebot werden diese nur abstrakt referenziert."
     }
   },
   "offer_outline": {
@@ -35,86 +34,62 @@
       {
         "pos": 1,
         "sku": "CONS-START",
-        "service_name": "Initiales Beratungspaket KI (Use-Case-Workshop & Vorgehensplan)",
+        "service_name": "Initiales Beratungspaket KI",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 3200,
         "total_eur": 3200,
-        "phase_hint": "Phase 1"
+        "phase_hint": "Phase 1",
+        "optional": false
       },
       {
         "pos": 2,
         "sku": "CONS-ADV",
-        "service_name": "Vertiefte Architektur- und Sicherheitsberatung (Vertraulichkeit, Governance, Zugriff, Logging, Betriebsprozesse)",
-        "quantity": 3,
+        "service_name": "Vertiefte Architektur- und Sicherheitsberatung",
+        "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 4500,
-        "total_eur": 13500,
-        "phase_hint": "Phase 1–2"
+        "total_eur": 4500,
+        "phase_hint": "Phase 2",
+        "optional": false
       },
       {
         "pos": 3,
-        "sku": "TRAIN-CS",
-        "service_name": "Schulung Fachanwender (Prozessdaten-Auswertung, sichere Nutzung, Qualitätscheck)",
-        "quantity": 2,
-        "unit": "Tag",
-        "unit_price_eur": 1800,
-        "total_eur": 3600,
-        "phase_hint": "Phase 2"
+        "sku": "TRAIN-ADMIN",
+        "service_name": "Schulung Admin & Key User",
+        "quantity": 1,
+        "unit": "Halbtag",
+        "unit_price_eur": 1000,
+        "total_eur": 1000,
+        "phase_hint": "Phase 2",
+        "optional": true
       },
       {
         "pos": 4,
-        "sku": "TRAIN-ADMIN",
-        "service_name": "Schulung Admin & Key User (Betrieb, Rollen/Rechte, Monitoring/Logging, Policies)",
-        "quantity": 2,
-        "unit": "Halbtag",
-        "unit_price_eur": 1000,
-        "total_eur": 2000,
-        "phase_hint": "Phase 2"
-      },
-      {
-        "pos": 5,
-        "sku": "SUPPORT-6M",
-        "service_name": "Begleitender Support (6 Monate) – Optimierung von Prompts/Wissensbasis/Workflows",
-        "quantity": 1,
-        "unit": "Pauschale",
-        "unit_price_eur": 4200,
-        "total_eur": 4200,
-        "phase_hint": "Phase 2–3 (begleitend)"
-      },
-      {
-        "pos": 6,
         "sku": "SUPPORT-3M",
-        "service_name": "Support-Verlängerung (3 Monate) – Zusatzoption",
+        "service_name": "Begleitender Support (3 Monate)",
         "quantity": 1,
         "unit": "Pauschale",
         "unit_price_eur": 2400,
         "total_eur": 2400,
         "phase_hint": "Optional",
         "optional": true
-      },
-      {
-        "pos": 7,
-        "sku": "TRAIN-CS",
-        "service_name": "Zusätzliche Trainings-Tage (Vertiefung / weitere Rollen / Schichtübergabe-Workflows)",
-        "quantity": 2,
-        "unit": "Tag",
-        "unit_price_eur": 1800,
-        "total_eur": 3600,
-        "phase_hint": "Optional",
-        "optional": true
       }
     ],
-    "subtotal_excluding_optional_eur": 26500,
-    "optional_total_eur": 6000,
-    "subtotal_eur": 32500,
-    "notes": [
-      "Vertrauliche Produktionsdetails (z. B. konkrete Rüst-/Taktwerte, Rezepturen) werden in diesem Entwurf bewusst nicht wiedergegeben; diese können im finalen Dokument intern ergänzt oder als separater, nicht-öffentlicher Anhang geführt werden.",
-      "Fokus auf Vertraulichkeit: Datenklassifizierung, Minimalprinzip, rollenbasierte Zugriffe, Protokollierung/Monitoring sowie Freigabeprozesse für strukturierte Ausgaben.",
-      "Qualitätssicherung: Ergebnisse sind als Assistenz/Entscheidungsunterstützung gedacht; kritische Inhalte sollten durch Fachpersonal geprüft werden.",
-      "Annahme: Umsetzung überwiegend remote; Reise- und Nebenkosten sind nicht enthalten.",
-      "Hinweis: Sicherheits-/Compliance-Konzeption wird unterstützt; dies ersetzt keine individuelle Rechtsberatung."
-    ]
+    "Summen": {
+      "subtotal_excluding_optional_eur": 7700,
+      "optional_total_eur": 3400,
+      "subtotal_eur": 11100,
+      "notes": [
+        "Dieses Dokument ist ein unverbindlicher Angebotsentwurf auf Basis abstrahierter Anforderungen eines anonymisierten Fertigungsunternehmens.",
+        "Vertrauliche Produktionskennzahlen (z. B. konkrete Rüst- und Taktzeiten) sowie genaue Mischungs- und Rezepturangaben werden bewusst nicht wörtlich im Angebot aufgeführt, sondern sind ausschließlich intern zu dokumentieren.",
+        "Die Ausgestaltung des KI-Assistenzsystems erfolgt unter Berücksichtigung von Datenschutz (insb. Datenminimierung), rollenbasierten Zugriffsmodellen und Nachvollziehbarkeit der Verarbeitungsschritte.",
+        "Reise- und Nebenkosten sind nicht enthalten und werden bei Bedarf gesondert vereinbart (Annahme: überwiegend remote Umsetzung).",
+        "Ein konkreter Budgetrahmen wurde nicht genannt; das Angebot ist modular aufgebaut und kann nach oben oder unten skaliert werden.",
+        "Kontaktdaten und konkrete Unternehmensbezeichnungen werden im finalen Angebotsdokument intern ergänzt.",
+        "Standard-Gültigkeit des Richtangebots: 30 Tage ab Erstellung; Zahlungsziel und etwaige Rabatte können im finalen Angebot intern ergänzt werden."
+      ]
+    }
   },
   "privacy": {
     "pii_detected_in_input": [
@@ -126,50 +101,10 @@
     ],
     "sensitive_business_info_detected_in_input": [
       "confidential_production_metrics",
-      "proprietary_recipe_formula"
+      "proprietary_recipe_formula",
+      "internal_process_details"
     ],
-    "redaction_policy_applied": "Alle identifizierenden Daten wurden entfernt und durch eine künstliche customer_id ersetzt. Zusätzlich werden vertrauliche Produktionskennzahlen und Rezepturdetails im Output nicht wörtlich wiedergegeben, sondern nur abstrakt referenziert.",
-    "customer_id_used": "CUST-2025-0008"
+    "redaction_policy_applied": "Alle Personen-, Kontakt- und Unternehmensdaten wurden durch eine technische Kundennummer und abstrahierte Merkmale (Branche, Land, Segment) ersetzt. Vertrauliche Produktionskennzahlen, Schichtdetails und die Mischungsformel wurden nicht wörtlich wiedergegeben, sondern nur als vertrauliche Produktionsinformationen beschrieben, die ausschließlich intern konkretisiert werden.",
+    "customer_id_used": "CUST-2025-0001"
   }
 }
-
-Angebotsentwurf für anonymisierten Kunden
-
-Kundensegment: SME
-Land: DE
-Mitarbeiterband: k. A.
-Customer-ID: CUST-2025-0008
-
-Kurzbeschreibung der Anfrage
-
-KI-Assistenzsystem zur Auswertung interner Prozessdaten in der Fertigung (Assistenz bei Analyse, Zusammenfassungen, strukturierte Übernahme in interne Formate)
-
-Hohe Anforderungen an Vertraulichkeit (interne Kennzahlen/Rezepturen dürfen nur intern kommuniziert werden)
-
-Angebotspositionen
-Pos.	SKU	Leistung	Menge	Einheit	Einzelpreis (€)	Gesamt (€)
-1	CONS-START	Initiales Beratungspaket KI (Use-Case-Workshop & Vorgehensplan)	1	Pauschale	3.200	3.200
-2	CONS-ADV	Architektur-/Sicherheitsberatung (Vertraulichkeit, Governance, Logging)	3	Pauschale	4.500	13.500
-3	TRAIN-CS	Schulung Fachanwender (Prozessdaten-Auswertung, sichere Nutzung, Check)	2	Tag	1.800	3.600
-4	TRAIN-ADMIN	Schulung Admin & Key User (Betrieb, Rollen/Rechte, Monitoring/Logging)	2	Halbtag	1.000	2.000
-5	SUPPORT-6M	Begleitender Support (6 Monate) – Optimierung Prompts/KB/Workflows	1	Pauschale	4.200	4.200
-6*	SUPPORT-3M	Support-Verlängerung (3 Monate)	1	Pauschale	2.400	2.400
-7*	TRAIN-CS	Zusätzliche Trainings-Tage (Vertiefung / weitere Rollen / Schicht-Workflows)	2	Tag	1.800	3.600
-
-Zwischensumme (netto, Basis ohne Optionen): 26.500 €
-Zwischensumme (netto, inkl. Optionen 6–7): 32.500 €
-
-Annahmen und Hinweise
-
-Budgetrahmen (falls vorhanden): nicht angegeben (modularer Aufbau).
-
-Wichtig (Vertraulichkeit): Konkrete interne Kennzahlen/Rezepturdetails werden in diesem Entwurf nicht wörtlich wiederholt; die Sachbearbeitung kann diese im finalen Dokument bei Bedarf intern ergänzen oder als separaten, nicht-öffentlichen Anhang führen.
-
-Fokus: Datenklassifizierung, Minimalprinzip, rollenbasierte Zugriffe, Protokollierung/Monitoring sowie Freigabeprozesse für strukturierte Ausgaben.
-
-Reise- und Nebenkosten sind nicht enthalten (Annahme: überwiegend remote).
-
-Sicherheits-/Compliance-Konzeption wird unterstützt; keine individuelle Rechtsberatung.
-
-*Pos. 6–7 sind optional.
-
