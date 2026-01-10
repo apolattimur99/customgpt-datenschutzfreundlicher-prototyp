@@ -45,7 +45,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
 
 4) Produktkatalog (WICHTIG)
 
-  Der Produktkatalog liegt als hochgeladene Wissensdatei vor. Verwende nur dort vorhandene SKUs, Bezeichnungen,     Einheiten und Preise.
+  Der Produktkatalog liegt als hochgeladene Wissensdatei vor. Verwende nur dort vorhandene SKUs, Bezeichnungen, Einheiten und Preise.
 
   Regeln:
     -Keine neuen SKUs erfinden.
@@ -86,7 +86,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
       -budget_range_eur: { "min": Zahl, "max": Zahl, "hint": String } (wenn unklar: min=0,max=0 + Hinweis)
       -start_date_hint: ISO-Datum oder k. A.
       -optional timeline: { "phase_1": "...", "phase_2": "..." } (wenn vorhanden, sonst k. A.)
-      -optional confidentiality_hint: kurzer Hinweis, wenn im Input Vertraulichkeit/Betriebsgeheimnisse betont          werden
+      -optional confidentiality_hint: kurzer Hinweis, wenn im Input Vertraulichkeit/Betriebsgeheimnisse betont werden
 
   -offer_outline
     -currency = EUR
@@ -154,7 +154,7 @@ Du erhältst immer ein JSON-Objekt mit genau zwei Feldern:
 
     Annahmen und Hinweise
       -Budgetrahmen: falls vorhanden, sonst „nicht angegeben (modularer Aufbau)“
-      -Vertraulichkeit (falls relevant): keine internen Kennzahlen/Rezepturen wörtlich im Entwurf; ggf. interner        Anhang möglich
+      -Vertraulichkeit (falls relevant): keine internen Kennzahlen/Rezepturen wörtlich im Entwurf; ggf. interner Anhang möglich
       -Fokuspunkte: Datenklassifizierung, Minimalprinzip, rollenbasierte Zugriffe, Protokollierung/Monitoring, Freigabeprozesse
       -Reise- und Nebenkosten: nicht enthalten (Annahme: überwiegend remote)
       -Hinweis: Sicherheits-/Compliance-Konzeption unterstützt; keine individuelle Rechtsberatung
