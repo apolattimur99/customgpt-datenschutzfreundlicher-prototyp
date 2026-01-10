@@ -20,8 +20,8 @@ Die Ausgabe erfolgt in drei Blöcken:
 - **Zum Nachbauen/Erstellen des Custom GPT:** Zugriff auf den GPT-Builder (in der Regel mit **ChatGPT Plus/Pro** bzw. Team/Enterprise/Edu).
 - **Zum reinen Nutzen/Testen eines bereits erstellten Custom GPT:** je nach Account ggf. auch ohne Abo möglich, jedoch mit möglichen Einschränkungen (z. B. Nutzungs-/Nachrichtenlimits).
 - Zugriff auf die Dateien aus diesem Repository:
-  - `custom-gpt/systemprompt.txt`
-  - `custom-gpt/wissenslog.txt`
+  - `customgpt/systemprompt.txt`
+  - `customgpt/wissenslog.txt`
 
 ### Link zum Custom GPT
 - Custom GPT: <HIER_DEINEN_LINK_EINFÜGEN>
