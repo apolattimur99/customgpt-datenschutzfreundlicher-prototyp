@@ -22,7 +22,7 @@ Die Ausgabe erfolgt in drei Blöcken:
   - `customgpt/systemprompt.txt`
   - `customgpt/wissenslog.txt`
 
-### Schritt-für-Schritt (GPT-Builder)
+### Schritt-für-Schritt
 1. Öffnen Sie https://chatgpt.com/ und klicken Sie in der linken Seitenleiste auf **„GPTs“**.
    
 <img src="docs/screenshots/01_navigation_gpts.png" width="250">
